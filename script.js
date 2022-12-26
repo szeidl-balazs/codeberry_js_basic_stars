@@ -10,9 +10,6 @@ function pageLoaded () {
         context.lineTo(positionX + size, positionY); /*jobb felső csúcs*/
         context.lineTo(positionX + size * .15, positionY + size * .5); /*bal alsó csúcs*/
         
-
-
-        context.moveTo(positionX + size * .15, positionY + size * .5); /*bal alsó csúcs*/
         context.lineTo(positionX + size * .5, positionY - size * .4); /*felső csúcs*/
         context.lineTo(positionX + size - size * .15, positionY + size * .5); /*jobb alsó csúcs*/
         context.lineTo(positionX,positionY); /*bal felső csúcs kiindulás*/
